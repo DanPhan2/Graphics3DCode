@@ -21,18 +21,18 @@ void SimpleShapeApplication::init() {
         std::cerr << "Invalid program" << std::endl;
         exit(-1);
     }
-    std::vector<GLushort> indices = {0, 2, 1, 5, 6, 0, 0, 1,5};
+    std::vector<GLushort> indices = {0, 2, 1, 5, 6, 3, 3, 4,5};
     // A vector containing the x,y,z vertex coordinates for the triangle.
     std::vector<GLfloat> vertices = {
-            -0.5f, 0.0f, 0.0f, 0.0f,0.0f,1.0f,
-            0.5f, 0.0f, 0.0f, 0.0f,1.0f,0.0f,
+            -0.5f, 0.0f, 0.0f, 1.0f,0.0f,0.0f,
+            0.5f, 0.0f, 0.0f, 1.0f,0.0f,0.0f,
             0.0f, 0.5f, 0.0f, 1.0f,0.0f,0.0f,
-            -0.5f, 0.0f, 0.0f, 0.0f,0.0f,1.0f,
+            -0.5f, 0.0f, 0.0f, 0.0f,1.0f,0.0f,
             0.5f, 0.0f, 0.0f, 0.0f,1.0f,0.0f,
-            0.5f, -0.5f, 0.0f, 1.0f,0.0f,0.0f,
-            -0.5f, -0.5f, 0.0f, 0.0f,0.0f,1.0f,
             0.5f, -0.5f, 0.0f, 0.0f,1.0f,0.0f,
-            -0.5f, 0.0f, 0.0f, 1.0f,0.0f,0.0f}; 
+            -0.5f, -0.5f, 0.0f, 0.0f,1.0f,0.0f,
+            0.5f, -0.5f, 0.0f, 0.0f,1.0f,0.0f,
+            -0.5f, 0.0f, 0.0f, 0.0f,1.0f,0.0f}; 
     
     // Generating the buffer and loading the vertex data into it.
     GLuint v_buffer_handle;
