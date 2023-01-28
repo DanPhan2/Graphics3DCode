@@ -106,7 +106,7 @@ endif ()
 
 
 #Assignments
-set(ASSIGNMENTS Triangle House Colors Indices Uniforms PVM Pyramid Resizing Zoom CameraMovement)
+set(ASSIGNMENTS Triangle House Colors Indices Uniforms PVM Pyramid Resizing Zoom CameraMovement Meshes Materials)
 
 set(ASSIGNMENTS_DIR ${SOURCE_DIR}/Assignments)
 link_libraries(application)
