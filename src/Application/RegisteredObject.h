@@ -10,15 +10,15 @@ class RegisteredObject {
 
 
 public:
-    static void add(RegisteredObject *p);
+    //static void add(RegisteredObject *p);
 
-    static void cleanup();
+    //static void cleanup();
 
-    RegisteredObject() {
-        RegisteredObject::add(this);
-    }
+    //RegisteredObject() {
+    //    RegisteredObject::add(this);
+    //}
 
-    virtual ~RegisteredObject() {}
+    //virtual ~RegisteredObject() {}
 
 
 private:

@@ -14,3 +14,5 @@
     glEnable(GL_CULL_FACE);
     ```
     i poptrzeć na piramidę z góry i z dołu. Czy coś zmieniło? Jeśli tak to proszę to naprawić.
+
+

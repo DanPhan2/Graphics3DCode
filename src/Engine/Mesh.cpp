@@ -21,7 +21,7 @@ void xe::Mesh::vertex_attrib_pointer(GLuint index, GLuint size, GLenum type, GLs
     glBindVertexArray(vao_);
     glBindBuffer(GL_ARRAY_BUFFER, v_buffer_);
     glEnableVertexAttribArray(index);
-    glVertexAttribPointer(index, size, type, GL_FALSE, stride, reinterpret_cast<void *>(offset));
+    glVertexAttribPointer(index, size, type, GL_FALSE, stride, reinterpret_cast<GLvoid*>(offset));
     glBindBuffer(GL_ARRAY_BUFFER, 0u);
     glBindVertexArray(0u);
 }

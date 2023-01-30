@@ -7,4 +7,6 @@ add_library(Engine
         Mesh.h Mesh.cpp
         Material.h
         ColorMaterial.h ColorMaterial.cpp
-        utils.h utils.cpp)
+        utils.h utils.cpp
+        camera.h
+        camera_controler.h)

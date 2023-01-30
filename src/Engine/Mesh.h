@@ -36,9 +36,7 @@ namespace xe {
 
         void vertex_attrib_pointer(GLuint index, GLuint size, GLenum type, GLsizei stride, GLsizei offset);
 
-        void add_submesh(GLuint start, GLuint end) {
-            submeshes_.push_back({start, end});
-        }
+        void add_submesh(GLuint start, GLuint end) {submeshes_.push_back({start, end});}
 
 
         void draw() const;
