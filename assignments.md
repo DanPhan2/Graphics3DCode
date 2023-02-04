@@ -20,3 +20,8 @@ To samo co w kolorach.
 
 14.11.2022 13:50:44 OK
 
+# Meshes
+
+04.02.2023 13:32
+Wszystkie zadania pojawiły się nagle w ciagu jednego dnia. Muszę się z Panią spotkać i o nich porozmawiać.  
+
